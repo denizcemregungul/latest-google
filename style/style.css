@@ -1,0 +1,169 @@
+
+/* -----------------Right Panel NAV Area---------------*/
+
+.header {
+    list-style-type: none;
+    margin: 10px;
+    overflow: hidden;
+    margin-right: 16px;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+  }
+  
+  .headerli a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 5px 5px;
+    text-decoration: none;
+    float: right;
+  }
+  
+  .headerli a:hover {
+    text-decoration: underline;
+  }
+
+/* -----------------LOGO Area---------------*/
+
+  
+  .container {
+    text-align: center;
+    margin: 100px;
+  }
+  
+
+/* -----------------SEARCH Area---------------*/
+
+  .search-area {
+
+    display: flex;
+    border: 1px solid #e3e4e7;
+    border-radius: 20px;
+    box-shadow: none;
+    height: 44px;
+    margin: 0 auto;
+    margin-top: -77px;
+    width: 582px;
+
+  }
+  
+  .search-area:hover {
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
+  }
+  
+  .search {
+    flex: 1;
+    display:flex;
+    padding: 5px 8px 0 16px;
+    padding-left: 13px;
+}
+
+  .search-img {
+    display: flex;
+    align-items: center;
+    padding-right: 13px;
+    margin-top: -5px;
+  }
+  
+  .search-img span {
+    color: #9aa0a6;
+    height: 20px;
+    width: 20px;
+    margin-top: 0px;
+    display: inline-block;
+    fill: currentColor;
+    line-height: 24px;
+    position: relative;
+  }
+  
+
+  #voice {
+    padding-right: 13px;
+    height: 20px;
+    width: 20px;
+    margin-top: 6px;
+  }
+
+input {
+    margin: 6px;
+    background-color: transparent;
+    border: none;
+    resize: none;
+    outline: none;
+    padding: 6px;
+
+}
+
+
+
+
+
+
+
+  /* -----------------BUTTONS Area---------------*/
+
+  
+  .buttons{
+    display: block;
+    text-align: -webkit-center;
+  }
+
+  button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+
+
+
+/* -----------------FOOTER Area---------------*/
+
+  .footer {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #dfe1e5;
+    border-top: 1px solid #dadce0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-left: -8px;
+    line-height: 10px;
+    background-color: #f2f2f2;
+   
+  }
+  
+  .footerli {
+    float: left;
+    list-style: none;
+  }
+  
+  .footerli a {
+    display: block;
+    color: #70757a;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin-left: 14px;
+    margin-right: -20px;
+  }
+  
+  .footerli a:hover {
+    text-decoration: underline;
+  }
+
+
